@@ -1,0 +1,152 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  color:white;
+}
+.navigation{
+   background-color: rgb(254, 207, 0); 
+   position: sticky !important;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   
+}
+#heading{
+  
+  font-size: 2rem;
+  
+}
+.navmenu{
+   /* margin-left:60%; */
+   /* background-color: #fff; */
+   width: 70%;
+   justify-content: space-evenly;
+   padding:20px;
+   font-size:1.5rem;
+   color: black;
+}
+
+/* .navmenu:hover{
+  transform: scale(1.2);
+} */
+.dropdown-menu {
+  background-color: rgb(253, 219, 64)!important; 
+  font-size:1.5rem !important;
+}
+/* ----------------------------carosuel------------ */
+.car-panel img{
+  height: 92vh;
+  width: 100%;
+}
+.car-panel{
+  height: fit-content;
+  width: 100%;
+  font-size: 2rem;
+ }
+ 
+ .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-0%, -50%);
+  text-align: center;
+ }
+  
+  .carousel-caption h3,p  {
+    color: rgb(4, 4, 4); 
+    font-weight: bolder;
+  } 
+  /* ------------------------------------homecontents------------ */
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .container h1{
+   margin-top: 60px;
+   color: rgb(254, 207, 0);
+   font-size: 2rem;
+   font-weight: bold;
+  }
+  .container p{
+    font-size:1.2rem;
+  }
+  .box{
+    border: 2px solid;
+    height: 350px;
+    width:35%;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+  .box i{
+    margin-left: 120px;
+    font-size:100px;
+    color:rgb(254, 207, 0);
+}
+.box p{
+  text-align: center;
+
+}
+.about h2{
+  text-align: center;
+  color:rgb(254, 207, 0);
+  font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+.about p{
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+  @media screen {
+    
+  }
+  /* ---------------------homecontent1------------------------- */
+  .container-icon{
+    margin-top: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.icon:hover{
+  transform: scale(1.2);
+}
+
+  
+  .icon{
+    border: 2px solid black;
+    height:400px;
+    width:350px;
+   align-items: center;
+   background-color: rgb(36, 36, 35);
+  }
+  
+  .icon i{
+    
+      font-size:100px;
+      color:rgb(254, 207, 0);
+      /* align-items: center;
+      justify-content: center;
+      text-align: center; */
+      margin-left: 120px;
+      
+  }
+  .icon p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .icon h1{
+    margin-top: 30px;
+      color:black;
+      font-weight:bolder;
+      text-align: center;
+  }
+  /* ------------------------------------------------ login----------------------------------------------------------- */
+  
